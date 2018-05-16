@@ -8,8 +8,8 @@
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>Spring4.x实战示例</name>
-    <description>Spring4.x实战示例</description>
+    <name>SpringBoot4.x实战示例</name>
+    <description>SpringBoot4.x实战示例</description>
 
     <properties>
         <file.encoding>UTF-8</file.encoding>
@@ -36,11 +36,11 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
             <version>${spring.boot.version}</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
-        <!--<version>${spring.boot.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>mysql</groupId>
